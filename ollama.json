@@ -1,0 +1,24 @@
+{
+    "models": {
+      "finance": {
+        "base": "llama3:8b",
+        "file": "./models/Modelfile.finance"
+      },
+      "hr": {
+        "base": "llama3:8b",
+        "file": "./models/Modelfile.hr"
+      },
+      "supply_chain": {
+        "base": "llama3:8b",
+        "file": "./models/Modelfile.supply_chain"
+      },
+      "general": {
+        "base": "mistral:7b",
+        "concurrency": 2
+      }
+    },
+    "server": {
+      "host": "0.0.0.0",
+      "port": 11434
+    }
+  }
